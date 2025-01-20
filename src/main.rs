@@ -1,4 +1,4 @@
-use contact_list__example_rust::{app::App, contact::Contact, ui::Console};
+use contact_list_example_rust::{app::App, contact::Contact, ui::Console};
 
 fn main() {
     let mut app = App::new(Vec::new());
