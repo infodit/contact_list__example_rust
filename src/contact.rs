@@ -35,6 +35,7 @@ impl Contact {
 
 impl Console for Contact {
     fn show(&self) {
-        println!("{:#?}",self);
+        println!("  Nome: {:#?}",self.name);
+        println!("  Numero: {:#?}",self.number);
     }
 }
